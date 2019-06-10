@@ -1,6 +1,6 @@
 # CTF-Course
 
-July 15 - August 15
+July 15 - August 16
 
 ## To Do:
 * Create list of CTF topics:
