@@ -13,6 +13,8 @@ July 15 - August 15
 * Create class outline
   * Objectives
   * Timeline
+  
+* Set up VM with tools
 
 ## Ideas for Course:
 * Overview of what a CTF is
