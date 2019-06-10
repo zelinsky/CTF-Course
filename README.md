@@ -15,5 +15,10 @@ July 15 - August 15
   * Timeline
 
 ## Ideas for Course:
+* Overview of what a CTF is
+* Overview of participating in CTF
+* Overview of different CTF topics
+* Demos
 * In-class problems
-* "Take-home" problems
+* Take-home problems
+
