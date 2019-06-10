@@ -1,12 +1,13 @@
 Topics
 ------
-python 2 or 3 using a terminal instead of a normal IDE
-Cryptography
-Web
-Reverse-Engineering
-Steganography
-Pwning / Binary Exploitation
-Network Traffic
+Python 2 or 3 using a terminal instead of a normal IDE
+Cryptography - 4
+Web - 4
+Reverse-Engineering - 4
+Steganography - 4
+Pwning / Binary Exploitation - 4
+Forensics - 4
+
 
 Python
   - 7 transformations
@@ -33,5 +34,11 @@ Steganography
   -
 Pwning / Binary
   -
-Network Traffic
-  - 
+Forensics
+  - Analyzing network traffic
+
+
+CTFs
+------
+peaCTF:		July 14 12:00 AM - August 12 12:00 AM
+Crypto CTF:	August 10 2:00 AM - August 11 2:00 AM
