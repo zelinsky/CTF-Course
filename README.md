@@ -21,4 +21,4 @@ July 15 - August 15
 * Demos
 * In-class problems
 * Take-home problems
-
+* Participate in CTFs
