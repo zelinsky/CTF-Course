@@ -10,7 +10,7 @@
 * [Login: SQL Injection and Cookies - "Logon"](http://2018shell.picoctf.com:37861/)
 * [/robots.txt - "Mr. Robots"](http://2018shell.picoctf.com:40064/)
 * [curl -X POST button2.php - "Buttons"](http://2018shell.picoctf.com:7949/)
-* [Flask Code Injection {{config}} - "Flaskcards"](http://2018shell.picoctf.com:17991/)
+* [Flask Template Injection {{config}} - "Flaskcards"](http://2018shell.picoctf.com:17991/)
 * [Flask Cookie - "Flaskcards Skeleton Key" Nice! You found out they were sending the Secret_key: a7a8342f9b41fcb062b13dd1167785f8. Now, can you find a way to log in as admin?  ](http://2018shell.picoctf.com:53999/)
   * [Writeup](https://www.wispwisp.com/?p=281)
 * [Flask Cookie - "Help Me Reset 2"](http://2018shell.picoctf.com:60612/)
