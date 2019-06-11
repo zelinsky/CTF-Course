@@ -16,6 +16,8 @@ July 15 - August 16
   
 * Set up VM with tools
 
+* Steal Andy's Website
+
 ## Ideas for Course:
 * Overview of what a CTF is
 * Overview of participating in CTF
