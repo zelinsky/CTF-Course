@@ -12,7 +12,8 @@
 * [W3Challs - Various challenges](https://w3challs.com/)
 * [TAMU CTF Challenges](https://github.com/tamuctf/TAMUctf-2019)
 * [picoCTF Challenges and CTF Resources](https://picoctf.com/)
-* [Natas - some really cool web challenges](http://overthewire.org/wargames/natas/)
+* [Over the wire - some really cool web and pwn challenges](http://overthewire.org/wargames/)
+  * [Writeup for pwn](https://hackmethod.com/overthewire-narnia-0/)
 
 # Writeups
 * [Web challenges to recreate](https://medium.com/bugbountywriteup/angstrom-ctf-2018-web-challenges-writeup-8a69998b0123)
