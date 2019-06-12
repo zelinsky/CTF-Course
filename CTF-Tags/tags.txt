@@ -1,30 +1,18 @@
 web 1333
-crypto 1119
-pwn 983
+crypto 1342
+pwn 1137
+reverse-engineering 1120
 forensics 689
 misc 644
-reverse 389
-reverse engineering 252
-reversing 201
-rev 167
+binary exploitation 428
+steganography 293
 re 150
-bin 144
-pwnable 131
-stego 118
-steganography 115
-engineering 111
 ppc 106
-cryptography 98
-exploit 97
-rsa 82
 recon 81
 trivia 81
-binary 79
 network 77
-exploitation 70
 programming 70
 python 68
-stegano 60
 forensic 54
 php 50
 pcap 43
@@ -41,7 +29,6 @@ bash 24
 asis2018 24
 x86 24
 heap 24
-pwning 23
 warmup 23
 linux 23
 osint 22
@@ -53,13 +40,10 @@ math 20
 coding 20
 networking 20
 blockchain 18
-aes 17
 admin 17
 rop 16
 bof 16
 misconfiguration 15
-binaryexploitation 15
-cryptography-rsa 15
 sql 15
 secure-coding 14
 mobile 14
@@ -99,13 +83,11 @@ language 9
 clemency 9
 exploiting 9
 physical 9
-binary-exploitation 8
 beginner 8
 pdf 8
 ruby 8
 game 8
 junior 8
-binexploit 8
 v35 8
 pwn adventure 7
 virtualization 7
@@ -127,7 +109,6 @@ algorithmic 6
 morse 6
 regex 6
 usb 6
-aes-cbc 6
 encoding 6
 audio 6
 qr 6
@@ -215,7 +196,6 @@ old 4
 retro 4
 substitution 4
 haskell 4
-aes-ecb 4
 minitel 3
 flask 3
 string 3
@@ -923,7 +903,6 @@ waf 1
 support 1
 adversarial 1
 modular-arithmetic 1
-aes-128-cbc 1
 spring 1
 potpourri 1
 xmpp 1
