@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <link id="pagestyle" rel="stylesheet" href="/css/blue.css" />
+  <title>Class Notes CPEG472/672 Spring 2019</title>
+  <script type="text/javascript" charset="utf-8">
+    var courseid = "crypto-spring-2019";
+    var sheetIndex = 0;
+    var sheets = [
+    "/css/blue.css",
+    "/css/salmon.css",
+    "/css/warm.css",
+    "/css/white.css",
+    "/css/grey.css",
+    "https://thomasf.github.io/solarized-css/solarized-dark.min.css",
+    "https://thomasf.github.io/solarized-css/solarized-light.min.css",
+    "/css/plain.css"];
+    var nextSheet = function(){
+        sheetIndex = (sheetIndex + 1) % sheets.length;
+        var newHref = sheets[sheetIndex];
+        document.getElementById('currentstyle').innerHTML = newHref;
+        document.getElementById('pagestyle').setAttribute('href', newHref);
+    }
+  </script>
+  <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <script>((window.gitter = {}).chat = {}).options = { room: 'AndyNovo/crypto-course4'};</script>
+  <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+</head>
+<body>
+  <p id="stylechange" onclick="nextSheet()">
+    Don't like this style?  Click here to change it! <span id="currentstyle">blue.css</span>
+  </p>
+  <div id="loginout">
+    <div id="login_part">
+      LOGIN: <i class="fa fa-github fa-2x" id="login" aria-hidden="true"></i>
+    </div>
+    <div id="logout_part">
+      Welcome <span class="username">...</span>. <span id="logout">Click here to logout</span>
+    </div>
+  </div>
+
+  <section>
+    <h1>Class X:</h1>
+  </section>
+
+  <script
+      src="//code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.7.2/firebase.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/4.12.0/lodash.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.7.5/firebase.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <style>
+  .hidden {
+    display: none;
+  }
+
+  .student-response {
+    width: 100%;
+  }
+
+  .expansive-button {
+    color: #1a1;
+    float: right;
+    display: block;
+  }
+  .student-response {
+    margin-top: 1em;
+    font-size: 1em;
+    font-family: monospace;
+  }
+  </style>
+  <script src="/task-record.js"></script>
+</body>
+</html>
