@@ -14,6 +14,7 @@
 * [picoCTF Challenges and CTF Resources](https://picoctf.com/)
 * [Over the wire - some really cool web and pwn challenges](http://overthewire.org/wargames/)
   * [Writeup for pwn](https://hackmethod.com/overthewire-narnia-0/)
+  * [pwntools soultion](https://github.com/Alpackers/CTF-Writeups/tree/master/Misc/OverTheWire/Narnia/Naria0)
 
 # Writeups
 * [Web challenges to recreate](https://medium.com/bugbountywriteup/angstrom-ctf-2018-web-challenges-writeup-8a69998b0123)
