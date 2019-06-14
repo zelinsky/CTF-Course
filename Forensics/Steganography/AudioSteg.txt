@@ -1,0 +1,1 @@
+Audio steg is taking every byte of the audio and editing the LSB of the byte into the first bit of your message / ciphertext.
