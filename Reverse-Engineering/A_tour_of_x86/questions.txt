@@ -1,0 +1,16 @@
+Stage 1
+----------
+1. What is the value of dh after line 129 executes? (one byte)
+2. What is the value of gs after line 145 executes? (one byte)
+3. What is the value of si after line 151 executes? (two bytes)
+4. What is the value of ax after line 169 executes? (two bytes)
+5. What is the value of ax after line 199 executes for the first time? (two bytes)
+
+Writeup - https://ctftime.org/writeup/11359
+
+Stage 2
+----------
+* Open stage 2 in a disassembler, and figure out how to jump to the rest of the code!
+
+Writeup - https://ctftime.org/writeup/11362
+

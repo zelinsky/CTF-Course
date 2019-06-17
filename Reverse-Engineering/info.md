@@ -3,13 +3,13 @@
 
 ## Table of Contents
 * [Memory Segments](#memory-segments)
-* [Registers (todo)](#registers) 
+* [Registers](#registers) 
 * [System Calls](#system-calls)
 * [Addressing](#addressing)
 * [Variables](#variables)
 * [Constants](#constants)
 * [Instructions](#instructions)
-  * [Arithmetic (todo)](#arithmetic-instructions)
+  * [Arithmetic](#arithmetic-instructions)
   * [Logical](#logical-instruction)
 * [Conditions](#conditions)
 
@@ -26,6 +26,53 @@
 
 ## Registers
 
+### Data Registers
+Complete 32-bit data registers:
+* EAX
+* EBX
+* ECX
+* EDX
+
+Lower halves of 32-bit registers (16-bits):
+* AX - Primary accumulator
+  * Used in input/output and most arithmetic instructions
+* BX - Base register
+  * Used in indexed addressing
+* CX - Count register
+  * Stores loop count in iterative operations
+* DX - Data register
+  * Also used in input/output operations
+
+Lower and higher halves of 16-bit registers (8-bits):
+* AL, AH
+* BL, BH
+* CL, CH
+* DL, DH
+
+![](https://www.tutorialspoint.com/assembly_programming/images/register1.jpg "Registers")
+
+### Pointer Registers - 16 bits
+* Instruction Pointer (IP)
+  * Stores the offset address of the next instruction to be executed
+* Stack Pointer (SP)
+  * Provides the offset value within the program stack
+  * Along with SS (SS:SP), referes to current position of data/address within stack
+* Base Pointer (BP)
+  * Helps in referencing parameter variables passed to subroutine
+  * Along with SS, refers to the location of the paramters
+
+![](https://www.tutorialspoint.com/assembly_programming/images/register3.jpg "Registers")
+
+### Flags Register - Many instructions will set the following flags
+* Overflow flag (OF)
+* Direction Flag (DF)
+* Interrupt Flag (IF)
+* Trap Flag (TF)
+* Sign Flag (SF)
+* Zero Flag (ZF)
+* Auxiliary Carry Flag (AF)
+* Parity Flag (PF)
+* Carry Flag (CF)
 
 ## System Calls
 
@@ -191,3 +238,51 @@ DIV/IDIV divisor
 
 
 ## Conditions
+
+### Unconditional Jump
+``` assembly
+JMP	label
+
+;example
+MOV  AX, 00    ; Initializing AX to 0
+MOV  BX, 00    ; Initializing BX to 0
+MOV  CX, 01    ; Initializing CX to 1
+L20:
+ADD  AX, 01    ; Increment AX
+ADD  BX, AX    ; Add AX to BX
+SHL  CX, 1     ; shift left CX, this in turn doubles the CX value
+JMP  L20       ; repeats the statements
+```
+
+### CMP
+```assembly
+CMP destination, source
+
+;example
+INC	EDX
+CMP	EDX, 10	; Compares whether the counter hass reached 10
+JLE	LP1     ; If it is less than or equal to 10, then jump to LP1
+```
+
+### Conditional Jump
+#### Signed Data for arithmetic operations
+| Instruction     | Description                         | Flags       |
+| --------------- | ----------------------------------- | ----------- |
+| JE/JZ           | Jump Equal or Jump Zero             | ZF          |
+| JNE/JNZ         | Jump Not Equal or Jump Not Zero     | ZF          |
+| JG/JNLE         | Jump Greater or Jump Not Less/Equal | OF, SF, ZF  |
+| JGE/JNL         | Jump Greater/Equal or Jump Not Less | OF, SF      |
+| JL/JNGE         | Jump Less or Jump Not Greater/Equal | OF, SF      |
+| JLE/JNG         | Jump Less/Equal or Jump Not Greater | OF, SF, ZF  |
+
+#### Unsigned Data for logical operations
+| Instruction     | Description                         | Flags       |
+| --------------- | ----------------------------------- | ----------- |
+| JE/JZ           | Jump Equal or Jump Zero             | ZF          |
+| JNE/JNZ         | Jump Not Equal or Jump Not Zero     | ZF          |
+| JA/JNBE         | Jump Above or Jump Not Below/Equal  | CF, ZF      |
+| JAE/JNB         | Jump Above/Equal or Jump Not Below  | CF          |
+| JB/JNAE         | Jump Below or Jump Not Above/Equal  | CF          |
+| JBE/JNA         | Jump Below/Equal or Jump Not Above  | AF, CF      |
+
+
