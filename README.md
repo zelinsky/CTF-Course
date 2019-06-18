@@ -1,10 +1,23 @@
 # CTF-Course
 
-### July 15 - August 16
-### 10:45 - 12:15
-### iSuite
+### Details
+July 15 - August 16
 
-## To Do:
+10:45 AM - 12:15 PM
+
+Evans 134 (iSuite)
+
+
+### Topics
+* [Binary Exploitation](./Binary-Exploitation/)
+* [Cryptography](./Cryptography/)
+* [Forensics](./Forensics/)
+* [Linux](./Linux/)
+* [Python](./Python/)
+* [Reverse Engineering](./Reverse-Engineering/)
+* [Web](./Web/)
+
+### To Do:
 * Create list of CTF topics:
   * Outline each topic
   * List of tools for each topic
@@ -20,7 +33,7 @@
 
 * Steal Andy's Website
 
-## Ideas for Course:
+### Ideas for Course:
 * Overview of what a CTF is
 * Overview of participating in CTF
 * Overview of different CTF topics
