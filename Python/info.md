@@ -18,7 +18,7 @@ p.sendline(payload)
 p.interactive()
 ```
 
-'''
+```
 ssh bandit@bandit.labs.overthewire.org
 ```
 ```python
