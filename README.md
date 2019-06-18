@@ -2,8 +2,11 @@
 
 ## Details
 July 15 - August 16
+
 10:45 - 12:15
+
 Evans 134 (iSuite)
+
 
 ## Topics
 * [Binary Exploitation](./Binary-Exploitation/)
