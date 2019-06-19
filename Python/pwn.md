@@ -103,7 +103,7 @@ r.interactive()
 ##### [Shellcode generation - You don't need to write your own shellcode!](http://docs.pwntools.com/en/stable/shellcraft.html#module-pwnlib.shellcraft)
 
 
-#### Setting Target Architecture and OS(http://docs.pwntools.com/en/stable/intro.html#setting-the-target-architecture-and-os)
+#### [Setting Target Architecture and OS](http://docs.pwntools.com/en/stable/intro.html#setting-the-target-architecture-and-os)
 ```python
 context.arch      = 'i386'
 context.os        = 'linux'
