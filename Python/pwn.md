@@ -148,4 +148,4 @@ if __name__ == "__main__":
     r.interactive()
 ```
 
-### [Other Example](https://github.com/Gallopsled/pwntools-write-ups)
+### [Other Example Programs](https://github.com/Gallopsled/pwntools-write-ups)
