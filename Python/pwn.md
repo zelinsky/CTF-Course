@@ -147,3 +147,5 @@ if __name__ == "__main__":
     r.send(payload)
     r.interactive()
 ```
+
+### [Other Example](https://github.com/Gallopsled/pwntools-write-ups)
