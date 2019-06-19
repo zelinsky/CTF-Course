@@ -29,7 +29,7 @@ r = remote('pwn.hsctf.com', 1234)
 
 ##### [SSH](http://docs.pwntools.com/en/stable/tubes/ssh.html#module-pwnlib.tubes.ssh)
 ```python
-session = ssh(username, host, password=pass)
+session = ssh(username, host, password=passwd)
 
 # Example:
 s = ssh('bandit0', 'bandit.labs.overthewire.org', password='bandit0')
