@@ -4,9 +4,10 @@ Python 2 or 3 using a terminal instead of a normal IDE
 Cryptography - 4
 Web - 4
 Reverse-Engineering - 4
-Steganography - 4
+Steganography - 1
 Pwning / Binary Exploitation - 4
 Forensics - 4
+Extra days to allocate - 3
 
 
 Python
