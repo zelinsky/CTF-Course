@@ -18,5 +18,5 @@
 
 
 ### Sites
-* [OverTheWire/Natas - Web problems](http://overthewire.org/wargames/natas/)
+* [OverTheWire/Natas - Web Problems](http://overthewire.org/wargames/natas/)
 * [Websec - Web Problems](http://websec.fr/#)

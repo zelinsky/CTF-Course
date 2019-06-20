@@ -73,10 +73,11 @@ context.arch      = 'i386'
 context.os        = 'linux'
 context.endian    = 'little'
 context.word_size = 32
+contex.log_level = 'debug' # More verbose output, very useful
 
 # or
 
-context(arch='arm', os='linux', endian='big', word_size=32)
+context(arch='arm', os='linux', endian='big', word_size=32, log_level='debug')
 ```
 
 
