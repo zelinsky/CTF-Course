@@ -28,7 +28,8 @@ Cryptography
       - Very easy to reverse engineer
 
 Web
-  -
+  - Making requests in various forms (Python, cURL, postman) 
+  - Distributed Version Control S (
 Reverse-Engineering
   -
 Steganography
