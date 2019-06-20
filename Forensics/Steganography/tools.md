@@ -4,6 +4,6 @@
   * [Problems](https://medium.com/ctf-writeups/stegonline-a-new-steganography-tool-b4eddb8f8f57)
 
 * [Collection of Steg Tools - Use w/ Docker](https://github.com/DominicBreuker/stego-toolkit)
-
+* [StegHide](http://steghide.sourceforge.net/documentation/manpage.php)
 * Binwalk
 * Strings
