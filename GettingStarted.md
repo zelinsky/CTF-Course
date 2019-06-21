@@ -46,5 +46,8 @@ Now that you have everything installed, feel free to start getting your feet wet
 ```
 from pwn import *
 ```
-- Here is a simple bonus CTF: 666c61677b495f4449445f4954217d
-- Hint: It involves one of the 7 trasnformations!
+- Here is a simple bonus CTF: 
+```
+666c61677b495f4449445f4954217d
+```
+- Hint: It involves one of the 7 transformations!
