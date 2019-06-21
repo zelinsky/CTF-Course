@@ -41,3 +41,10 @@ pip install --upgrade pwntools
 
 #### Finishing
 Now that you have everything installed, feel free to start getting your feet wet in CTF's! A good website to start at is [PicoCTF](https://2018game.picoctf.com/)
+- To use python in Linux, open your terminal and type 'python'
+- You can import pwntools in python by typing:
+```
+from pwn import *
+```
+- Here is a simple bonus CTF: 666c61677b495f4449445f4954217d
+- Hint: It involves one of the 7 trasnformations!
