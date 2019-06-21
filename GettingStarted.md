@@ -17,5 +17,14 @@ Please follow the below instructions BEFORE THE FIRST DAY. This will help us lan
 - Congrats! Let's move to step 2. 
 
 #### Installing Kali Linux
-- Download this [Kali Linux VM](https://www.offensive-security.com/kali-linux-vm-vmware-virtualbox-image-download/). I would choose the 64 bit version
+- Download this [Kali Linux VM](https://www.offensive-security.com/kali-linux-vm-vmware-virtualbox-image-download/). I would choose the 64 bit version.
+- Once downloaded, extract the zip file into a folder. Keep track of where you extracted it to.
 - Launch VMWare Workstation or Fusion. 
+- Click Open Virtual Machine
+- Find the folder you extracted, open it and click the VM file inside.
+- If a something pops up, click "I Copied it"
+- Click the first line inside the terminal
+- login as "root" and the password is "toor"
+- Congrats! You have your own Kali Linux VM!
+
+#### Installing pwntools on your Linux Machine 
