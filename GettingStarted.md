@@ -28,3 +28,13 @@ Please follow the below instructions BEFORE THE FIRST DAY. This will help us lan
 - Congrats! You have your own Kali Linux VM!
 
 #### Installing pwntools on your Linux Machine 
+- Open your Linux VM
+- Once logged in, click the black terminal window on the left. 
+- Copy these lines of code
+```
+apt-get update
+pip install --upgrade pip
+pip install --upgrade pwntools
+```
+- Click enter
+- After it runs, pwntools should be installed. 
