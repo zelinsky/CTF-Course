@@ -40,4 +40,4 @@ pip install --upgrade pwntools
 - After it runs, pwntools should be installed. 
 
 #### Finishing
-Now that you have everything installed, feel free to start getting your feet wet in CTF's! a good website to start at is [PicoCTF](https://2018game.picoctf.com/)
+Now that you have everything installed, feel free to start getting your feet wet in CTF's! A good website to start at is [PicoCTF](https://2018game.picoctf.com/)
