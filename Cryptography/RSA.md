@@ -35,7 +35,6 @@ d = modinv(e,phi)
 Plaintext = CT<sup>d</sup> % N
 ### attacks
 ---------
-Small e is vulnerable to m^e being smaller than N and you can just take the e root of m^e
+Small e is vulnerable to m<sup>e</sup> being smaller than N and you can just take the e root of m<sup>e</sup>
 
-small e is also vulnerable to broadcast attacks where you multiply all the m^e mod N together and all of the moduli together until m^e is 
-bigger than the moduli
+small e is also vulnerable to broadcast attacks where you multiply all the m^e mod N together and all of the moduli together until m^e is bigger than the moduli
