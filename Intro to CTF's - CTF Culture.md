@@ -27,3 +27,14 @@ synt{lBh_qVq_vG!}
 ```
 
 ##### RSA
+RSA is a math based Encryption using prime numbers, exponentials, and modular arithmetic.
+Try to decrypt this flag. 
+
+```
+e = 65537
+p = 307
+q = 487
+N = 149509
+d = 48833
+ct = 141654L
+```
