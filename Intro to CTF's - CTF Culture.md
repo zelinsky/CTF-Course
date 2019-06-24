@@ -8,5 +8,13 @@ Certain categories of CTF's include:
 - Cryptography
   - RSA Encryption
   - AES Encryption
-- Steganography
+- Forensics
+  - Steganography
+  - Network Traffic
+  - Grep
 - Binary Exploitation
+- Web
+- Linux
+- Reverse Engineering
+ #### Cryptography Overview
+ Cryptography is 
