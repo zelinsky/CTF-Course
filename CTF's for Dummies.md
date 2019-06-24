@@ -4,3 +4,9 @@ Most of the time, flags look like this format:
 ```
 flag{l33t_sp34k-h3r3}
 ```
+Certain categories of CTF's include:
+- Cryptography
+  - RSA Encryption
+  - AES Encryption
+- Steganography
+- Binary Exploitation
