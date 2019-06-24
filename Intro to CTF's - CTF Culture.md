@@ -12,7 +12,7 @@ Certain categories of CTF's include:
   - Network Traffic
   - Grep
 - Binary Exploitation
-- Web
+- Web Exploitation
 - Reverse Engineering
 
 ### Cryptography Overview
@@ -38,11 +38,16 @@ ct = 141654L
 
 ### Forensics
 Forensics includes finding files in linux servers, finding flags in corrupted files, or finding flags in pictures (Steganography)
-
 ### Binary Exploitation
+Binary Exploitation is making a program do something that it's not meant to do.
 ### Web
 Web CTF's inculde server traversal via a website, or being able to search manually for the flag via a multitude of tools.
 ### Reverse Engineeering
+cbtnuggets.com: "Sometimes the flag will be a string hidden inside the application code. Depending on the challenge type and level of difficulty the task, you might need to use reverse engineering.
+
+Reverse engineering challenges require an intimate knowledge debugger and disassembler software. The goal: Take a compiled binary, rip it apart, and find out how it works.
+
+You will want to be familiar with how the application uses control flow, loops, and conditionals so that you can figure out how to bend the program to your will, and then hopefully capture the flag."
 
 
 
