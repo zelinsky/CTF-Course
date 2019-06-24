@@ -16,5 +16,14 @@ Certain categories of CTF's include:
 - Web
 - Linux
 - Reverse Engineering
- #### Cryptography Overview
- Cryptography is 
+
+### Cryptography Overview
+
+Cryptography is when you take the flag in plaintext and jumble the text in a way that no longer can be understood by someone who intercepts the message, but is performed in an algorythmic way that can be undone by the intended reciever.
+
+Classic Examples of Cryptography are the caesar cipher, rot-13, and the vigenere cipher.
+```
+synt{lBh_qVq_vG!}
+```
+
+##### RSA
