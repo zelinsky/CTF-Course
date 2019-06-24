@@ -7,7 +7,6 @@ flag{l33t_sp34k-h3r3}
 Certain categories of CTF's include:
 - Cryptography
   - RSA Encryption
-  - AES Encryption
 - Forensics
   - Steganography
   - Network Traffic
@@ -18,7 +17,6 @@ Certain categories of CTF's include:
 - Reverse Engineering
 
 ### Cryptography Overview
-
 Cryptography is when you take the flag in plaintext and jumble the text in a way that no longer can be understood by someone who intercepts the message, but is performed in an algorythmic way that can be undone by the intended reciever.
 
 Classic Examples of Cryptography are the caesar cipher, rot-13, and the vigenere cipher.
@@ -38,3 +36,10 @@ N = 149509
 d = 48833
 ct = 141654L
 ```
+
+### Forensics
+Forensics includes finding files in linux servers, finding flags in corrupted files, or finding flags in pictures (Steganography)
+
+
+
+
