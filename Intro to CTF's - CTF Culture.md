@@ -41,6 +41,8 @@ Forensics includes finding files in linux servers, finding flags in corrupted fi
 
 ### Binary Exploitation
 ### Web
+Web CTF's inculde server traversal via a website, or being able to search manually for the flag via a multitude of tools.
 ### Reverse Engineeering
+
 
 
