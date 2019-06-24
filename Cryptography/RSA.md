@@ -28,13 +28,13 @@ check that gcd(e,p-1)=1 and gcd(e,q-1)=1
 
 run your message through bytes_to_long() and call that m.
 
-CT = m <sup>e</sup> % N
+CT = m<sup>e</sup> % N
 
 d = modinv(e,phi)
 
-Plaintext = CT <sup>d</sup> % N
+Plaintext = CT<sup>d</sup> % N
 ### attacks
 ---------
-Small e is vulnerable to m <sup>e</sup> being smaller than N and you can just take the e root of m <sup>e</sup>
+Small e is vulnerable to m<sup>e</sup> being smaller than N and you can just take the e root of m<sup>e</sup>
 
-small e is also vulnerable to broadcast attacks where you multiply all the m <sup>e</sup> mod N together and all of the moduli together until m <sup>e</sup> is bigger than the moduli
+small e is also vulnerable to broadcast attacks where you multiply all the m<sup>e</sup> mod N together and all of the moduli together until m<sup>e</sup> is bigger than the moduli
