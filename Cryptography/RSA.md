@@ -2,7 +2,7 @@
 -----
 pick two primes, p and q.
 
-phi of a number is all of the numbers below that number. since N = p*q, phi(N) is (p-1)*(q-1)
+phi of a number is all of the numbers below that number. since N = (p)(q), phi(N) is (p-1)(q-1)
 
 pick a prime (industry standard is 65337) and call that e.
 
