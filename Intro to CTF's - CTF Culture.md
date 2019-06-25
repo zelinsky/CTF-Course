@@ -5,15 +5,15 @@ Most of the time, flags look like this format:
 flag{l33t_sp34k-h3r3}
 ```
 Certain categories of CTF's include:
-* Cryptography
-  * RSA Encryption
-* Forensics
-  * Steganography
-  * Network Traffic
-  * Grep
-* Binary Exploitation
-* Web Exploitation
-* Reverse Engineering
+* [Cryptography](#Cryptography)
+  * [RSA Encryption](#RSA)
+* [Forensics](#Forensics)
+  * [Steganography]()
+  * [Network Traffic]()
+  * [Grep]()
+* [Binary Exploitation](#Binary-Exploitation)
+* [Web Exploitation](Web-Exploitation)
+* [Reverse Engineering](Reverse-Engineering)
 
 ### Cryptography
 Cryptography is when you take the flag in plaintext and jumble the text in a way that no longer can be understood by someone who intercepts the message, but is performed in an algorithmic way that can be undone by the intended reciever.
