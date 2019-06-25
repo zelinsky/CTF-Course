@@ -45,7 +45,7 @@ Binary Exploitation is making a program do something that it's not meant to do.
 
 *Common binary exploits use a technique known as memory corruption, which can enable an attacker to gain unauthorized privileges to the system that is running the application, or by hijacking the control flow of the application and injecting their commands directly into the system."*
 
-### Web
+### Web Exploitation
 Web CTF's inculde server traversal via a website, or being able to search manually for the flag via a multitude of tools.
 ### Reverse Engineeering
 
