@@ -157,18 +157,6 @@ def read_cookie(cookie):
 def index():
     return 'Usage: /p0/getflag or /p0/decryptblock/:hexdigest OR /p6/cookie or p6/login/:hexdigest/:iv'
 
-@app.route('/p0/getflag')
-def getflag():
-    randomiv = os.urandom(16)
-    cipher = AES.new(key0, AES.MODE_CBC, randomiv)
-    assert(len(flag0) == 48)
-    return randomiv.encode('hex') + cipher.encrypt(flag0).encode('hex')
-
-@app.route('/p0/decryptblock/<hexdigest>')
-def decrypt(hexdigest):
-    cipher = AES.new(key0, AES.MODE_ECB)
-    return cipher.decrypt(hexdigest.decode('hex')).encode('hex')
-
 @app.route('/p6/cookie')
 def getcookie():
     cookie='{nm:guest,flg:0}'
