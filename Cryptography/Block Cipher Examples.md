@@ -105,3 +105,84 @@ Problem 5: YORO
 ```
 f5201c64143bb5e84e8858536a37710fb137e07764c00c76d1337b1ed73217a95a654c6918bb5a72d398e9510aca084117570baab36c6e4447a8b6a1af12c3da58b3b1119ef19435c8607134271cd154a1762368cb73396719425f104687c8962c211d85230fc93707ce70f9714dab0bde8888f34cfd3a8e7832a692e33fab42
 ```
+```
+import hashlib
+import os
+from itertools import cycle, izip
+from secret import flag
+
+def XOR(message, key):
+        return ''.join(chr(ord(c)^ord(k)) for c,k in izip(message, cycle(key)))
+
+def THE_NO_AES_OFB_encryption(plaintext, secret):
+    iv = os.urandom(32)
+    ct=iv
+    nextblock = iv + secret
+    for i in range(0, len(plaintext), 32):
+        nextblock = hashlib.sha256(nextblock).digest()
+        ct += XOR(nextblock, plaintext[i:i+32])
+    return ct
+
+password = os.urandom(32)
+plaintext="Who needs AES? I can just roll my own OFB!"+flag
+ct = THE_NO_AES_OFB_encryption(plaintext, password)
+
+f=file('ciphertext.txt','w')
+f.write(ct.encode('hex'))
+f.close()
+
+#YORO == "You Only Roll Once"
+```
+**Problem 6: Cookie Monster**
+```
+from flask import Flask
+from Crypto.Cipher import AES
+import os
+
+from secret import key6, flag6, key0, flag0
+
+app = Flask(__name__)
+
+#This server is running at http://ctf1.gel.webfactional.com
+
+def read_cookie(cookie):
+    #format: '{key1:value1,key2:value2}'
+    answer={}
+    for pair in cookie[1:-1].split(','):
+        temp = pair.split(':')
+        answer[temp[0]] = temp[1]
+    return answer
+
+@app.route('/')
+def index():
+    return 'Usage: /p0/getflag or /p0/decryptblock/:hexdigest OR /p6/cookie or p6/login/:hexdigest/:iv'
+
+@app.route('/p0/getflag')
+def getflag():
+    randomiv = os.urandom(16)
+    cipher = AES.new(key0, AES.MODE_CBC, randomiv)
+    assert(len(flag0) == 48)
+    return randomiv.encode('hex') + cipher.encrypt(flag0).encode('hex')
+
+@app.route('/p0/decryptblock/<hexdigest>')
+def decrypt(hexdigest):
+    cipher = AES.new(key0, AES.MODE_ECB)
+    return cipher.decrypt(hexdigest.decode('hex')).encode('hex')
+
+@app.route('/p6/cookie')
+def getcookie():
+    cookie='{nm:guest,flg:0}'
+    randomiv = os.urandom(16)
+    cipher = AES.new(key6, AES.MODE_CBC, randomiv)
+    return randomiv.encode('hex') + cipher.encrypt(cookie).encode('hex')
+
+@app.route('/p6/login/<hexdigest>/<iv>')
+def checkcookie(hexdigest, iv):
+    cipher = AES.new(key6, AES.MODE_CBC, iv.decode('hex'))
+    rawcookie=cipher.decrypt(hexdigest.decode('hex'))
+    cookie = read_cookie(rawcookie)
+    if cookie['nm'] == 'admin' and cookie['flg'] == '1':
+        return flag6
+    else:
+        return "Sorry, the flag must be read by the admin"
+```
