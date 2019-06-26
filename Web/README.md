@@ -1,5 +1,5 @@
 # Web
-For Web challenges, you'll be given a link to a webpage, sometimes some source code, and possibly a hint in the challenge title or description (but many times, no hint or direction will be given, and you'll just have to look around). From there, there are many forms the challenge could take on. Web challenges focus on bad coding practice, common language vulnerabilities, code injection, and other exploits or web trickery.
+For Web challenges, you'll be given a link to a webpage, sometimes some source code, and possibly a hint in the challenge title or description. From there, there are many forms the challenge could take on. Web challenges cover a wide range of web-based exploits and tend to focus on bad coding practice, common language vulnerabilities, code injection, and other exploits or web trickery.
 
 ### Topics
 * [General/Misc](general.md)
@@ -18,6 +18,8 @@ For Web challenges, you'll be given a link to a webpage, sometimes some source c
 * [Burpsuite](burp.md)
 * [DirBuster](dirbuster.md)
 * [SQLMap](sqlmap.md)
+* Nmap
+
 
 ### Sites
 * [OverTheWire/Natas - Web Problems](http://overthewire.org/wargames/natas/)
