@@ -15,11 +15,12 @@ For Web challenges, you'll be given a link to a webpage, sometimes some source c
 
 
 ### Tools
-* [Burpsuite](Tools/burp.md)
-* [DirBuster](Tools/dirbuster.md)
-* [SQLMap](Tools/sqlmap.md)
-* [Nmap](Tools/nmap.md)
-* [PostBin](Tools/postbin.md)
+* [Requests - Python library for scripting HTTP requests](Tools/requests.md)
+* [Burpsuite - Collection of tools for testing web app security](Tools/burp.md)
+* [DirBuster - Directory and file name brute-forcer](Tools/dirbuster.md)
+* [SQLMap - Database vulnerability detector and exploiter](Tools/sqlmap.md)
+* [Nmap - Network scanner](Tools/nmap.md)
+* [PostBin - Website for collecting HTTP requests](Tools/postbin.md)
 
 
 ### Sites
