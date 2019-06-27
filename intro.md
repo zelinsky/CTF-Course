@@ -1,4 +1,10 @@
-# Intro to CTF's
+# Getting Started
+Welcome to ELEG 467/667!
+
+In this course we are going to build up your cybersecurity skills through completeing Capture the Flag challenges and particpating in competitions.
+
+
+# What is Capture the Flag?
 Capture the flag as it pertains to our course is much different than the traditional capture the flag you may have played as a kid. In our CTF's, there is a flag hidden somewhere in a server, file, or website. You must use skills learned such as Forensics, Cryptography, Binary-Exploitation, and basic Linux to solve these "problems" to reveal the flag.
 Most of the time, flags look like this format:
 ```
