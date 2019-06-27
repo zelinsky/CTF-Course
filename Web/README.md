@@ -15,14 +15,14 @@ For Web challenges, you'll be given a link to a webpage, sometimes some source c
 
 
 ### Tools
-* [Requests - Python library for scripting HTTP requests](Tools/requests.md)
-* [Burpsuite - Collection of tools for testing web app security](Tools/burp.md)
-* [DirBuster - Directory and file name brute-forcer](Tools/dirbuster.md)
-* [SQLMap - Database vulnerability detector and exploiter](Tools/sqlmap.md)
-* [Nmap - Network scanner](Tools/nmap.md)
-* [PostBin - Website for collecting HTTP requests](Tools/postbin.md)
+* [Requests](Tools/requests.md) - Python library for scripting HTTP requests
+* [Burpsuite](Tools/burp.md) - Collection of tools for testing web app security
+* [DirBuster](Tools/dirbuster.md) - Directory and file name brute-forcer
+* [SQLMap](Tools/sqlmap.md) - Database vulnerability detector and exploiter
+* [Nmap](Tools/nmap.md) - Network scanner
+* [PostBin](Tools/postbin.md) - Website for collecting HTTP requests
 
 
 ### Sites
-* [OverTheWire/Natas - Web Problems](http://overthewire.org/wargames/natas/)
-* [Websec - Web Problems](http://websec.fr/#)
+* [OverTheWire/Natas](http://overthewire.org/wargames/natas/) - Web Problems
+* [Websec](http://websec.fr/#) - Web Problems
