@@ -1,0 +1,381 @@
+C0rr3ct func:
+  6           0 LOAD_CONST               1 ('Wow!!!You so best^_^')
+              3 PRINT_ITEM          
+              4 PRINT_NEWLINE       
+              5 LOAD_CONST               0 (None)
+              8 RETURN_VALUE        
+
+Ch3cking func:
+  8           0 LOAD_CONST               1 (0)
+              3 STORE_FAST               1 (check)
+
+  9           6 LOAD_GLOBAL              0 (ord)
+              9 LOAD_FAST                0 (flag)
+             12 LOAD_CONST               1 (0)
+             15 BINARY_SUBSCR       
+             16 CALL_FUNCTION            1
+             19 LOAD_CONST               2 (52)
+             22 BINARY_ADD          
+             23 LOAD_GLOBAL              0 (ord)
+             26 LOAD_FAST                0 (flag)
+             29 LOAD_CONST               3 (-1)
+             32 BINARY_SUBSCR       
+             33 CALL_FUNCTION            1
+             36 COMPARE_OP               3 (!=)
+             39 POP_JUMP_IF_TRUE        78
+             42 LOAD_GLOBAL              0 (ord)
+             45 LOAD_FAST                0 (flag)
+             48 LOAD_CONST               3 (-1)
+             51 BINARY_SUBSCR       
+             52 CALL_FUNCTION            1
+             55 LOAD_CONST               4 (2)
+             58 BINARY_SUBTRACT     
+             59 LOAD_GLOBAL              0 (ord)
+             62 LOAD_FAST                0 (flag)
+             65 LOAD_CONST               5 (7)
+             68 BINARY_SUBSCR       
+             69 CALL_FUNCTION            1
+             72 COMPARE_OP               3 (!=)
+             75 POP_JUMP_IF_FALSE       88
+
+ 10     >>   78 LOAD_GLOBAL              1 (F41l)
+             81 CALL_FUNCTION            0
+             84 POP_TOP             
+             85 JUMP_FORWARD           752 (to 840)
+
+ 11     >>   88 LOAD_FAST                0 (flag)
+             91 LOAD_CONST               5 (7)
+             94 SLICE+2             
+             95 LOAD_CONST               6 ('ISITDTU')
+             98 COMPARE_OP               3 (!=)
+            101 POP_JUMP_IF_FALSE      120
+
+ 12         104 LOAD_GLOBAL              2 (sys)
+            107 LOAD_ATTR                3 (exit)
+            110 LOAD_CONST               1 (0)
+            113 CALL_FUNCTION            1
+            116 POP_TOP             
+            117 JUMP_FORWARD           720 (to 840)
+
+ 13     >>  120 LOAD_FAST                0 (flag)
+            123 LOAD_CONST               7 (9)
+            126 BINARY_SUBSCR       
+            127 LOAD_FAST                0 (flag)
+            130 LOAD_CONST               8 (14)
+            133 BINARY_SUBSCR       
+            134 COMPARE_OP               3 (!=)
+            137 POP_JUMP_IF_TRUE       180
+            140 LOAD_FAST                0 (flag)
+            143 LOAD_CONST               8 (14)
+            146 BINARY_SUBSCR       
+            147 LOAD_FAST                0 (flag)
+            150 LOAD_CONST               9 (19)
+            153 BINARY_SUBSCR       
+            154 COMPARE_OP               3 (!=)
+            157 POP_JUMP_IF_TRUE       180
+            160 LOAD_FAST                0 (flag)
+            163 LOAD_CONST               9 (19)
+            166 BINARY_SUBSCR       
+            167 LOAD_FAST                0 (flag)
+            170 LOAD_CONST              10 (24)
+            173 BINARY_SUBSCR       
+            174 COMPARE_OP               3 (!=)
+            177 POP_JUMP_IF_FALSE      193
+
+ 14     >>  180 LOAD_FAST                1 (check)
+            183 LOAD_CONST              11 (1)
+            186 INPLACE_ADD         
+            187 STORE_FAST               1 (check)
+            190 JUMP_FORWARD           647 (to 840)
+
+ 15     >>  193 LOAD_GLOBAL              0 (ord)
+            196 LOAD_FAST                0 (flag)
+            199 LOAD_CONST              12 (8)
+            202 BINARY_SUBSCR       
+            203 CALL_FUNCTION            1
+            206 LOAD_CONST              13 (49)
+            209 COMPARE_OP               3 (!=)
+            212 POP_JUMP_IF_TRUE       235
+            215 LOAD_FAST                0 (flag)
+            218 LOAD_CONST              12 (8)
+            221 BINARY_SUBSCR       
+            222 LOAD_FAST                0 (flag)
+            225 LOAD_CONST              14 (16)
+            228 BINARY_SUBSCR       
+            229 COMPARE_OP               3 (!=)
+            232 POP_JUMP_IF_FALSE      245
+
+ 16     >>  235 LOAD_GLOBAL              1 (F41l)
+            238 CALL_FUNCTION            0
+            241 POP_TOP             
+            242 JUMP_FORWARD           595 (to 840)
+
+ 17     >>  245 LOAD_FAST                0 (flag)
+            248 LOAD_CONST              15 (10)
+            251 LOAD_CONST               8 (14)
+            254 SLICE+3             
+            255 LOAD_CONST              16 ('d0nT')
+            258 COMPARE_OP               3 (!=)
+            261 POP_JUMP_IF_FALSE      277
+
+ 18         264 LOAD_FAST                1 (check)
+            267 LOAD_CONST              11 (1)
+            270 INPLACE_ADD         
+            271 STORE_FAST               1 (check)
+            274 JUMP_FORWARD           563 (to 840)
+
+ 19     >>  277 LOAD_GLOBAL              4 (int)
+            280 LOAD_FAST                0 (flag)
+            283 LOAD_CONST              17 (18)
+            286 BINARY_SUBSCR       
+            287 CALL_FUNCTION            1
+            290 LOAD_GLOBAL              4 (int)
+            293 LOAD_FAST                0 (flag)
+            296 LOAD_CONST              18 (23)
+            299 BINARY_SUBSCR       
+            300 CALL_FUNCTION            1
+            303 BINARY_ADD          
+            304 LOAD_GLOBAL              4 (int)
+            307 LOAD_FAST                0 (flag)
+            310 LOAD_CONST              19 (28)
+            313 BINARY_SUBSCR       
+            314 CALL_FUNCTION            1
+            317 BINARY_ADD          
+            318 LOAD_CONST               7 (9)
+            321 COMPARE_OP               3 (!=)
+            324 POP_JUMP_IF_TRUE       347
+            327 LOAD_FAST                0 (flag)
+            330 LOAD_CONST              17 (18)
+            333 BINARY_SUBSCR       
+            334 LOAD_FAST                0 (flag)
+            337 LOAD_CONST              19 (28)
+            340 BINARY_SUBSCR       
+            341 COMPARE_OP               3 (!=)
+            344 POP_JUMP_IF_FALSE      357
+
+ 20     >>  347 LOAD_GLOBAL              1 (F41l)
+            350 CALL_FUNCTION            0
+            353 POP_TOP             
+            354 JUMP_FORWARD           483 (to 840)
+
+ 21     >>  357 LOAD_FAST                0 (flag)
+            360 LOAD_CONST              20 (15)
+            363 BINARY_SUBSCR       
+            364 LOAD_CONST              21 ('L')
+            367 COMPARE_OP               3 (!=)
+            370 POP_JUMP_IF_FALSE      386
+
+ 22         373 LOAD_FAST                1 (check)
+            376 LOAD_CONST              11 (1)
+            379 INPLACE_ADD         
+            380 STORE_FAST               1 (check)
+            383 JUMP_FORWARD           454 (to 840)
+
+ 23     >>  386 LOAD_GLOBAL              0 (ord)
+            389 LOAD_FAST                0 (flag)
+            392 LOAD_CONST              22 (17)
+            395 BINARY_SUBSCR       
+            396 CALL_FUNCTION            1
+            399 LOAD_CONST              23 (-10)
+            402 BINARY_XOR          
+            403 LOAD_CONST              24 (-99)
+            406 COMPARE_OP               3 (!=)
+            409 POP_JUMP_IF_FALSE      422
+
+ 24         412 LOAD_GLOBAL              1 (F41l)
+            415 CALL_FUNCTION            0
+            418 POP_TOP             
+            419 JUMP_FORWARD           418 (to 840)
+
+ 25     >>  422 LOAD_GLOBAL              0 (ord)
+            425 LOAD_FAST                0 (flag)
+            428 LOAD_CONST              25 (20)
+            431 BINARY_SUBSCR       
+            432 CALL_FUNCTION            1
+            435 LOAD_CONST               4 (2)
+            438 BINARY_ADD          
+            439 LOAD_GLOBAL              0 (ord)
+            442 LOAD_FAST                0 (flag)
+            445 LOAD_CONST              26 (27)
+            448 BINARY_SUBSCR       
+            449 CALL_FUNCTION            1
+            452 COMPARE_OP               3 (!=)
+            455 POP_JUMP_IF_TRUE       502
+            458 LOAD_GLOBAL              0 (ord)
+            461 LOAD_FAST                0 (flag)
+            464 LOAD_CONST              26 (27)
+            467 BINARY_SUBSCR       
+            468 CALL_FUNCTION            1
+            471 LOAD_CONST              27 (123)
+            474 COMPARE_OP               4 (>)
+            477 POP_JUMP_IF_TRUE       502
+            480 LOAD_GLOBAL              0 (ord)
+            483 LOAD_FAST                0 (flag)
+            486 LOAD_CONST              25 (20)
+            489 BINARY_SUBSCR       
+            490 CALL_FUNCTION            1
+            493 LOAD_CONST              28 (97)
+            496 COMPARE_OP               0 (<)
+            499 POP_JUMP_IF_FALSE      515
+
+ 26     >>  502 LOAD_FAST                1 (check)
+            505 LOAD_CONST              11 (1)
+            508 INPLACE_ADD         
+            509 STORE_FAST               1 (check)
+            512 JUMP_FORWARD           325 (to 840)
+
+ 27     >>  515 LOAD_GLOBAL              0 (ord)
+            518 LOAD_FAST                0 (flag)
+            521 LOAD_CONST              26 (27)
+            524 BINARY_SUBSCR       
+            525 CALL_FUNCTION            1
+            528 LOAD_CONST              29 (100)
+            531 BINARY_MODULO       
+            532 LOAD_CONST               1 (0)
+            535 COMPARE_OP               3 (!=)
+            538 POP_JUMP_IF_FALSE      551
+
+ 28         541 LOAD_GLOBAL              1 (F41l)
+            544 CALL_FUNCTION            0
+            547 POP_TOP             
+            548 JUMP_FORWARD           289 (to 840)
+
+ 29     >>  551 LOAD_FAST                0 (flag)
+            554 LOAD_CONST              30 (25)
+            557 BINARY_SUBSCR       
+            558 LOAD_CONST              31 ('C')
+            561 COMPARE_OP               3 (!=)
+            564 POP_JUMP_IF_FALSE      580
+
+ 30         567 LOAD_FAST                1 (check)
+            570 LOAD_CONST              11 (1)
+            573 INPLACE_ADD         
+            574 STORE_FAST               1 (check)
+            577 JUMP_FORWARD           260 (to 840)
+
+ 31     >>  580 LOAD_GLOBAL              0 (ord)
+            583 LOAD_FAST                0 (flag)
+            586 LOAD_CONST              32 (26)
+            589 BINARY_SUBSCR       
+            590 CALL_FUNCTION            1
+            593 LOAD_CONST               4 (2)
+            596 BINARY_MODULO       
+            597 LOAD_CONST               1 (0)
+            600 COMPARE_OP               3 (!=)
+            603 POP_JUMP_IF_TRUE       675
+            606 LOAD_GLOBAL              0 (ord)
+            609 LOAD_FAST                0 (flag)
+            612 LOAD_CONST              32 (26)
+            615 BINARY_SUBSCR       
+            616 CALL_FUNCTION            1
+            619 LOAD_CONST              33 (3)
+            622 BINARY_MODULO       
+            623 LOAD_CONST               1 (0)
+            626 COMPARE_OP               3 (!=)
+            629 POP_JUMP_IF_TRUE       675
+            632 LOAD_GLOBAL              0 (ord)
+            635 LOAD_FAST                0 (flag)
+            638 LOAD_CONST              32 (26)
+            641 BINARY_SUBSCR       
+            642 CALL_FUNCTION            1
+            645 LOAD_CONST              34 (4)
+            648 BINARY_MODULO       
+            649 LOAD_CONST               1 (0)
+            652 COMPARE_OP               3 (!=)
+            655 POP_JUMP_IF_TRUE       675
+            658 LOAD_FAST                0 (flag)
+            661 LOAD_CONST              32 (26)
+            664 BINARY_SUBSCR       
+            665 LOAD_ATTR                5 (isdigit)
+            668 CALL_FUNCTION            0
+            671 UNARY_NOT           
+            672 POP_JUMP_IF_FALSE      685
+
+ 32     >>  675 LOAD_GLOBAL              1 (F41l)
+            678 CALL_FUNCTION            0
+            681 POP_TOP             
+            682 JUMP_FORWARD           155 (to 840)
+
+ 33     >>  685 LOAD_GLOBAL              4 (int)
+            688 LOAD_FAST                0 (flag)
+            691 LOAD_CONST              18 (23)
+            694 BINARY_SUBSCR       
+            695 CALL_FUNCTION            1
+            698 LOAD_CONST              33 (3)
+            701 COMPARE_OP               3 (!=)
+            704 POP_JUMP_IF_FALSE      720
+
+ 34         707 LOAD_FAST                1 (check)
+            710 LOAD_CONST              11 (1)
+            713 INPLACE_ADD         
+            714 STORE_FAST               1 (check)
+            717 JUMP_FORWARD           120 (to 840)
+
+ 35     >>  720 LOAD_FAST                0 (flag)
+            723 LOAD_CONST              35 (22)
+            726 BINARY_SUBSCR       
+            727 LOAD_FAST                0 (flag)
+            730 LOAD_CONST              36 (13)
+            733 BINARY_SUBSCR       
+            734 LOAD_ATTR                6 (lower)
+            737 CALL_FUNCTION            0
+            740 COMPARE_OP               3 (!=)
+            743 POP_JUMP_IF_FALSE      756
+
+ 36         746 LOAD_GLOBAL              1 (F41l)
+            749 CALL_FUNCTION            0
+            752 POP_TOP             
+            753 JUMP_FORWARD            84 (to 840)
+
+ 38     >>  756 LOAD_FAST                1 (check)
+            759 POP_JUMP_IF_FALSE      772
+
+ 39         762 LOAD_GLOBAL              1 (F41l)
+            765 CALL_FUNCTION            0
+            768 POP_TOP             
+            769 JUMP_FORWARD             0 (to 772)
+
+ 40     >>  772 LOAD_CONST               1 (0)
+            775 STORE_FAST               2 (tmp)
+
+ 41         778 SETUP_LOOP              30 (to 811)
+            781 LOAD_FAST                0 (flag)
+            784 GET_ITER            
+        >>  785 FOR_ITER                22 (to 810)
+            788 STORE_FAST               3 (i)
+
+ 42         791 LOAD_FAST                2 (tmp)
+            794 LOAD_GLOBAL              0 (ord)
+            797 LOAD_FAST                3 (i)
+            800 CALL_FUNCTION            1
+            803 INPLACE_ADD         
+            804 STORE_FAST               2 (tmp)
+            807 JUMP_ABSOLUTE          785
+        >>  810 POP_BLOCK           
+
+ 43     >>  811 LOAD_FAST                2 (tmp)
+            814 LOAD_CONST              37 (2441)
+            817 COMPARE_OP               3 (!=)
+            820 POP_JUMP_IF_FALSE      833
+
+ 44         823 LOAD_GLOBAL              1 (F41l)
+            826 CALL_FUNCTION            0
+            829 POP_TOP             
+            830 JUMP_FORWARD             7 (to 840)
+
+ 46     >>  833 LOAD_GLOBAL              7 (C0rr3ct)
+            836 CALL_FUNCTION            0
+            839 POP_TOP             
+        >>  840 LOAD_CONST               0 (None)
+            843 RETURN_VALUE        
+
+F41l func:
+  3           0 LOAD_CONST               1 ('Bye!!!')
+              3 PRINT_ITEM          
+              4 PRINT_NEWLINE       
+
+  4           5 LOAD_CONST               2 (0)
+              8 RETURN_VALUE        
+
+None
+
