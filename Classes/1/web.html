@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Source</title>
-</head>
-<body>
-  <h2>
-    Welcome to the admin portal!
-  </h2>
-  <br>
-  <!-- Please Remove Later!! Admin password is youcantguessme -->
-  <form action="./login.php" method="get">
-    Username:<input type="text" name = "user"><br>
-    Password:<input type="text" name = "pass"><br>
-    <input type="submit" value="Submit">
-  </form>
-</body>
+  <script src="./login.js"></script>
+  <head>
+    <meta charset="UTF-8">
+    <title>Source</title>
+  </head>
+  <body>
+    <h2>
+      Welcome to the admin portal!
+    </h2>
+    <br>
+    <!-- Please Remove Later!! Admin password is youcantguessme -->
+    <form onsubmit="return login()">
+      Username:<input type="text" name="user" id="user"><br>
+      Password:<input type="text" name="pass" id="pass"><br>
+      <input type="submit" value="Login">
+    </form>
+  </body>
 </html>
