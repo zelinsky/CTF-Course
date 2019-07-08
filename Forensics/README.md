@@ -14,6 +14,9 @@ With Forensic challenges, you will often be trying to find information hidden in
 * binwalk
 * grep
 * python
+* autopsy
+* foremost
+* 
 
 ### Sites
 * https://trailofbits.github.io/ctf/forensics/
