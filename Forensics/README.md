@@ -16,7 +16,7 @@ With Forensic challenges, you will often be trying to find information hidden in
 * python
 * autopsy
 * foremost
-* 
+* volatility
 
 ### Sites
 * https://trailofbits.github.io/ctf/forensics/
