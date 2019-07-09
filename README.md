@@ -8,14 +8,17 @@ July 15 - August 16
 Evans 134 (iSuite)
 
 
-### Topics
-* [Binary Exploitation](./Binary-Exploitation/)
-* [Cryptography](./Cryptography/)
-* [Forensics](./Forensics/)
-* [Linux](./Linux/)
-* [Python](./Python/)
-* [Reverse Engineering](./Reverse-Engineering/)
-* [Web](./Web/)
+### General Skills
+* [Linux and Bash](Linux/)
+* [Python](Python/)
+
+### CTF Topics
+* [Cryptography](Cryptography/)
+* [Forensics](Forensics/)
+* [Web](Web/)
+* [Reverse Engineering](Reverse-Engineering/)
+* [Binary Exploitation](Binary-Exploitation/)
+
 
 ### To Do:
 * Create list of CTF topics:
