@@ -36,6 +36,6 @@ For Web challenges, you’ll be given a link to a webpage, sometimes some source
 With Reverse Engineering challenges, you will have to take a compiled binary (executable), rip it apart, figure out how it works, and and then control the program to capture the flag. For these challenges, you will need to have a good understanding of assembly code (control flow, loops, and conditionals) as well as debugger and disassembler software.
 
 
-# Binary Exploitation
+### Binary Exploitation
 
 In Binary Exploitation or Pwning challenges, you will often be dealing with Linux ELF files (executables), and your goal will be to make the program act differently than intended. You will have to exploit the program in some way, typically with different types of memory corruption using buffer overflows.
