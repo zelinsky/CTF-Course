@@ -7,11 +7,10 @@ For Web challenges, you'll be given a link to a webpage, sometimes some source c
 * [SQL Injection](Topics/sql.md)
 * [PHP](Topics/php.md)
 * [Template Injection](Topics/template.md)
-* [XXS](Topics/xxs.md)
+* [XSS](Topics/xss.md)
 * [File Upload](Topics/file.md)
 * [CSRF/SSRF](Topics/rf.md)
 * [XXE](Topics/xxe.md)
-* [XSS](Topics/xss.md)
 
 
 ### Tools
