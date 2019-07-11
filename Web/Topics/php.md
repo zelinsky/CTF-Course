@@ -1,4 +1,4 @@
-# Cookies
+# PHP Exploits
 
 # Loose/Strict Type Comparison
 
