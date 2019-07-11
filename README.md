@@ -33,6 +33,9 @@ Kali Linux has a lot of useful tools for solving CTFs challenges.
 
 ### Resources
 
+#### Useful Sites
+* [CTFTime](https://ctftime.org/)
+
 #### Practice Sites
 * [GoogleCTF](https://capturetheflag.withgoogle.com/#beginners/)
 * [picoCTF](https://2018game.picoctf.com/)
