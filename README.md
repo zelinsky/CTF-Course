@@ -31,6 +31,14 @@ Kali Linux has a lot of useful tools for solving CTFs challenges.
 * [Binary Exploitation](Binary-Exploitation/)
 
 
+### Resources
+
+#### Practice Sites
+* [GoogleCTF](https://capturetheflag.withgoogle.com/#beginners/)
+* [picoCTF](https://2018game.picoctf.com/)
+* [OverTheWire](http://overthewire.org/)
+* [W3Challs](https://w3challs.com/)
+
 ### Notes
 * [Class 1](Classes/1/intro.md)
 
