@@ -39,6 +39,7 @@ Kali Linux has a lot of useful tools for solving CTFs challenges.
 #### Practice Sites
 * [GoogleCTF](https://capturetheflag.withgoogle.com/#beginners/)
 * [picoCTF](https://2018game.picoctf.com/)
+* [CSAW 365](https://365.csaw.io/)
 * [OverTheWire](http://overthewire.org/)
 * [W3Challs](https://w3challs.com/)
 
