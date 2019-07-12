@@ -4,9 +4,6 @@ Welcome to ELEG 467/667!
 In this course we are going to build up your cybersecurity skills through completeing Capture the Flag challenges and particpating in competitions.
 
 
-# Cybersecurity
-
-
 # What is Capture the Flag?
 The Capture the Flag that we'll be playing is a little different from the game you may have played as a kid. In our CTFs, there will be a number of challenges that you need to solve across different categories, sort of like Jeopardy. For a given challenge, you'll be trying capture a flag that will look something like this: ```flag{1ns3r7_l337_sp34k_h3r3}```. Once you find the flag, you can then submit it for points.
 
