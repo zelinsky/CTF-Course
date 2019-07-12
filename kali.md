@@ -1,7 +1,7 @@
 # Installing a Kali Linux Virtual Machine
 Kali is a Linux distribution that has many of the tools that we need to solve CTF challenges. Follow this step-by-step guide to get Kali Linux running in a virtual machine on your computer!
 
-#### Installing VMWare (Windows Install)
+### Installing VMWare
 - Log into [UDeploy](https://udeploy.udel.edu/software/vmware-for-university-of-delaware/)
 - Scroll to bottom and click the link that says *To download, please click here to authenticate*
 - When logged in, choose VMWare Workstation 15
@@ -11,7 +11,7 @@ Kali is a Linux distribution that has many of the tools that we need to solve CT
 - Before hitting finish, click the license button. Paste the license key you copied from earlier.
 - Congrats! Let's move to step 2. 
 
-#### Installing Kali Linux
+### Installing Kali Linux
 - Download the 64-Bit Kali Linux VMware image on [this page](https://www.offensive-security.com/kali-linux-vm-vmware-virtualbox-image-download/)
 - Once downloaded, extract the zip file
 - Launch VMWare Workstation
