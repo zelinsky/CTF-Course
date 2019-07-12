@@ -28,6 +28,7 @@ Here are a few more proprties of a good hash function:
   * Vulnerable to length extension attacks
 * SHA-3
 
+
 ### Vulnerabilities
 #### Collisions
 Collisions happen when two different pieces of data hash to the same value.
@@ -41,3 +42,11 @@ Now let's look at a MAC scheme that is vulnerable to a legnth extension attack:
 * MAC = H(k+m) _i.e. take the **H**ash of the **m**essage prepended with our **k**ey_
 
 We can easily forge signatures with this scheme using programs like [HashPump](https://github.com/bwall/HashPump) or [hlextend](https://github.com/stephenbradshaw/hlextend).
+
+
+### Tabletop
+* I have a governance control which says I can only use SHA1, which has collisions.  How can I get around this weakness?
+
+* They are proposing to go to SHA256. Why is this a bad idea? What if it were md5?
+
+
