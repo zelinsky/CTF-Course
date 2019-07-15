@@ -9,7 +9,7 @@ Evans 134 (iSuite)
 
 ### Instructors
 **Professor**
-Andrew Novocin		*andynovo@udel.edu*
+* Andrew Novocin		*andynovo@udel.edu*
 
 **TAs**
 * Landon Jones		*lhjones@udel.edu*
@@ -57,5 +57,5 @@ Kali Linux has a lot of useful tools for solving CTFs challenges.
 * [Class 2](Classes/2-hashing.md)
 
 
-#### Sponsors
+### Sponsors
 * J.P. Morgan Chase
