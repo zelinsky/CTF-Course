@@ -8,7 +8,7 @@ July 15 - August 16
 Evans 134 (iSuite)
 
 
-### CTF Website
+### CTF Website (Grading)
 Complete challenges in our [UDCTF](https://udctf.com)!
 
 
@@ -47,4 +47,4 @@ Kali Linux has a lot of useful tools for solving CTFs challenges.
 * [Class 1](Classes/1/intro.md)
 
 
-
+_Sponsored by J.P. Morgan Chase_
