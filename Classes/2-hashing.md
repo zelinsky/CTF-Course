@@ -174,6 +174,16 @@ We can easily forge signatures with this scheme using programs like [HashPump](h
 * They are proposing to go to SHA-256. Why is this a bad idea? What if it were MD5?
 
 
+## Python Modules Used
+* [hashlib](https://docs.python.org/2/library/hashlib.html)
+* [pwntools](https://github.com/Gallopsled/pwntools)
+* [itertools](https://docs.python.org/2/library/itertools.html)
+
+
+## Writeups
+* [Intro to Hash](https://raw.githubusercontent.com/zelinsky/CTF-Course/master/Classes/writeups/intro_to_hash.py)
+
+
 ## More Challenges
 * The Slash Bringing Hasher
 * RockYou
