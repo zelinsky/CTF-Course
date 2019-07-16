@@ -58,8 +58,6 @@ This is how you can connect to the IP address and port of the challenge and inte
 
 ![intro_to_hash-2](images/intro_to_hash-2.png)
 
-![intro_to_hash-3](images/intro_to_hash-3.png)
-
 It's good to include some print statements so you can see your progress in the challenege and notice if anything fails.
 
 >**Use pwntools to automate solving the Intro to Hash.**
