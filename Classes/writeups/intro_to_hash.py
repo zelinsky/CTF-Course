@@ -55,5 +55,5 @@ for i in range(10):
             r.sendline(w) # Send word
 
 # Receive flag
-r.recv()
+print r.recv()
 
