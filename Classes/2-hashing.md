@@ -4,10 +4,10 @@
 The next few exercises will guide you through using cryptographic hash functions, how to reverse hashes (how to get from the hash to the original string), and how to communicate with a servers using Python. We'll also take a look at other attacks on hashes, such as forcing collisions and extending hashes. We'll be using a few new Python libraries to help us, and we'll also learn a bit about data representation (hex), and we'll build up our coding skills.
 
 
-## CHALLENGE NAME HERE
+## Challenge: CHALLENGE NAME HERE
 Take a look at the challenge **CHALLENEGE NAME HERE**. We can see "nc IP PORT" in the description. This is a command that you can paste in your terminal. **nc** is short for **netcat**, which is a utility for reading from and writing to network connections. **IP** is the IP address of the server to connect to, and **PORT** is the port to connect on. The challenge is a program that is running at this IP and port.
 
-**Run _NC COMMAND_ in your terminal**
+>**Run _NC COMMAND_ in your terminal.**
 
 We can see that we're being asked to give the hash of a word. What's a hash?
 
@@ -58,10 +58,19 @@ This is how you can connect to the IP address and port of the challenge and inte
 
 It's good to include some print statements so you can see your progress in the challenege and notice if anything fails.
 
-**Use pwntools to automate the rest of the challenge.**
+**Use pwntools to automate solving the CHALLENGE.**
 
 
 ## Brute Forcing
+It looks like the CHALLENGE is now asking us to reverse a hash, to give the original string for a given hash. If the search space is small enough we can brute force it. Here's an example in Python:
+```python
+EXAMPLE
+```
+
+**Now complete the rest of the CHALLENGE.**
+
+## Challenge: Hash Attack
+
 
 ### What Are Hashes Used For?
 * Digital signatures
