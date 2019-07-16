@@ -9,7 +9,7 @@ Take a look at the challenge **Intro to Hash**. We can see "nc 52.15.140.126 700
 
 >**Connect to the challenge by running _nc 52.15.140.126 7001_ in your terminal.**
 
-![intro_to_hash-1](images/intro_to_hash-1)
+![intro_to_hash-1](images/intro_to_hash-1.png)
 
 We can see that we're being asked to give the hash of a word. What's a hash?
 
@@ -56,9 +56,9 @@ from pwn import *
 
 This is how you can connect to the IP address and port of the challenge and interact with it using pwntools:
 
-![intro_to_hash-2](images/intro_to_hash-2)
+![intro_to_hash-2](images/intro_to_hash-2.png)
 
-![intro_to_hash-3](images/intro_to_hash-3)
+![intro_to_hash-3](images/intro_to_hash-3.png)
 
 It's good to include some print statements so you can see your progress in the challenege and notice if anything fails.
 
@@ -155,7 +155,8 @@ Collisions happen when two different pieces of data hash to the same value.
 
 >**Why is this bad?**
 
-#### Challenge: 
+#### Challenge: Collider
+>**Solve the Collider challenge.**
 
 ### Length Extension Attacks
 Before we get into this attack, you should understand the concept of a Message Authenication Code, or a MAC. MACs are sort of like hashes with keys. There is a secret key that both the sender and recevier know. For some message, the sender generates a MAC using a hash function and the key. The receiver can then verify that the message is unaltered and came from the sender by generating a MAC for the received message using the same hash function and key. If the two MACs are the same, the message is verified.
@@ -165,7 +166,8 @@ Now let's look at a MAC scheme that is vulnerable to a legnth extension attack:
 
 We can easily forge signatures with this scheme using programs like [HashPump](https://github.com/bwall/HashPump) or [hlextend](https://github.com/stephenbradshaw/hlextend).
 
-#### Challenege: 
+#### Challenege: Extension
+>**Use a length extension attack to solve the Extension challenge.**
 
 
 ## Tabletop
