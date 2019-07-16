@@ -30,7 +30,7 @@ The Python module that we're going to use for generating hashes is **hashlib**. 
 
 ![hashlib](images/hashlib.png)
 
-Hashlib also has other hash functions such as SHA-1 and SHA-2 (SHA-256, SHA-512, ...). In the example above, notice how `hashlib.md5("thisismystring")` returns a *hash object*. In order to get the actual hash value, we need to run either `myhash.digest()` or `myhash.hexdigest()`. What's the difference between the **digest** and the **hexgiest**?
+Hashlib also has other hash functions such as SHA-1 and SHA-2 (SHA-256, SHA-512, etc.). In the example above, notice how `hashlib.md5("thisismystring")` returns a *hash object*. In order to get the actual hash value, we need to run either `myhash.digest()` or `myhash.hexdigest()`. What's the difference between the **digest** and the **hexgiest**?
 
 The **digest** is the raw bytes of hash. If those bytes correspond to a printable character, they're represented as such, like the **t** at the end of the hash above.  If those bytes don't have a printable character, then they are represented in hex and denoted with a **\x** in front, such as **\xbd** at the beginning of the hash above. **\xbd** is one byte.
 
