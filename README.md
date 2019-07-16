@@ -8,7 +8,7 @@ July 15 - August 16
 Evans 134 (iSuite)
 
 **Professor**
-* Andrew Novocin		*andynovo@udel.edu*
+* Andrew Novocin	*andynovo@udel.edu*
 
 **TAs**
 * Landon Jones		*lhjones@udel.edu*
@@ -51,9 +51,10 @@ Kali Linux has a lot of useful tools for solving CTFs challenges.
 * [OverTheWire](http://overthewire.org/)
 * [W3Challs](https://w3challs.com/)
 
+
 ## Notes
-* [Class 1](Classes/1-intro.md)
-* [Class 2](Classes/2-hashing.md)
+* [Class 1](Classes/1.md): Intro to CTFs
+* [Class 2](Classes/2.md): Talking to Servers and Hash Functions
 
 
 ### Sponsors
