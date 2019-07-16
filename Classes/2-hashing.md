@@ -25,7 +25,7 @@ Here are a few more proprties of a good hash function:
 * It should be hard to find any two inputs that hash to the same thing.
 
 
-## Generating Hashes in Python
+### Generating Hashes in Python
 The Python module that we're going to use for generating hashes is **hashlib**. Here's an example of using hashlib to get the **MD5** of a string:
 
 ![hashlib](images/hashlib.png)
@@ -41,7 +41,7 @@ The **hexdigest** is the hex representation of the digest in ASCII values 0-9 an
 >**Now, try to complete Intro to Hash**
 
 
-## Automating
+### Automating
 You've probably generated a few hashes for the challenge now and you're thinking "How many times I have to do this before it gives me the _flag_?" The answer: probably **a lot**. There's no need to fear, **pwntools** is here! With pwntools we can connect to the challenge and programmatically receive, generate the hash, and send it back. To install pwntools:
 ```shell
 apt-get update
@@ -63,7 +63,7 @@ It's good to include some print statements so you can see your progress in the c
 >**Use pwntools to automate solving the Intro to Hash.**
 
 
-## Brute Forcing
+### Brute Forcing
 It looks like the challenge is now asking us to reverse a hash, to give the original string for a given hash. If the search space is small enough we can brute force it. Here's an example in Python:
 ```python
 from string import printable
