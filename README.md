@@ -7,7 +7,6 @@ July 15 - August 16
 
 Evans 134 (iSuite)
 
-### Instructors
 **Professor**
 * Andrew Novocin		*andynovo@udel.edu*
 
