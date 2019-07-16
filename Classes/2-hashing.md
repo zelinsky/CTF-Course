@@ -4,14 +4,16 @@
 The next few exercises will guide you through using cryptographic hash functions, how to reverse hashes (how to get from the hash to the original string), and how to communicate with a servers using Python. We'll also take a look at other attacks on hashes, such as forcing collisions and extending hashes. We'll be using a few new Python libraries to help us, and we'll also learn a bit about data representation (hex), and we'll build up our coding skills.
 
 
-## Challenge: CHALLENGE NAME HERE
-Take a look at the challenge **CHALLENEGE NAME HERE**. We can see "nc IP PORT" in the description. This is a command that you can paste in your terminal. **nc** is short for **netcat**, which is a utility for reading from and writing to network connections. **IP** is the IP address of the server to connect to, and **PORT** is the port to connect on. The challenge is a program that is running at this IP and port.
+## Challenge: Intro to Hash
+Take a look at the challenge **Intro to Hash**. We can see "nc 52.15.140.126 7001" in the description. This is a command that you can paste in your terminal. **nc** is short for **netcat**, which is a utility for reading from and writing to network connections. **52.15.140.126** is the IP address of the server to connect to, and **7001** is the port to connect on. The challenge is a program that is running at this IP and port.
 
->**Run _NC COMMAND_ in your terminal.**
+>**Connect to the challenge by running _nc 52.15.140.126 7001_ in your terminal.**
+
+![intro_to_hash-1](images/intro_to_hash-1)
 
 We can see that we're being asked to give the hash of a word. What's a hash?
 
-**Play around for a bit with [this program](https://codepen.io/AndyNovo/pen/qqdLdG) to figure out what a hash is and to determine the properties of a hash function.**
+>**Play around for a bit with [this program](https://codepen.io/AndyNovo/pen/qqdLdG) to figure out what a hash is and to determine the properties of a hash function.**
 
 So you can probably tell now that a hash function is a deterministic "scrambler" of some input. You pass in an arbitrary length input, and you get fixed-length output (the hash) that you cannot determine the input from. Everytime you run the same hash function on the same input, you get the same output.
 
@@ -36,7 +38,7 @@ The **hexdigest** is the hex representation of the digest in ASCII values 0-9 an
 
 ![hex_decode](images/hex_decode.png)
 
-**Now, try to complete CHALLENGE**
+>**Now, try to complete Intro to Hash**
 
 
 ## Automating
@@ -54,32 +56,91 @@ from pwn import *
 
 This is how you can connect to the IP address and port of the challenge and interact with it using pwntools:
 
-**IMAGE HERE**
+![intro_to_hash-2](images/intro_to_hash-2)
+
+![intro_to_hash-3](images/intro_to_hash-3)
 
 It's good to include some print statements so you can see your progress in the challenege and notice if anything fails.
 
-**Use pwntools to automate solving the CHALLENGE.**
+>**Use pwntools to automate solving the Intro to Hash.**
 
 
 ## Brute Forcing
-It looks like the CHALLENGE is now asking us to reverse a hash, to give the original string for a given hash. If the search space is small enough we can brute force it. Here's an example in Python:
+It looks like the challenge is now asking us to reverse a hash, to give the original string for a given hash. If the search space is small enough we can brute force it. Here's an example in Python:
 ```python
-EXAMPLE
+from string import printable
+import itertools
+import hashlib
+
+# If we can assume that the original string only contains printable chars
+# we can iterate over only printable char , otherwise we'd have to iterate over
+# all possible hex values
+
+i = 1
+while True:
+    words = [''.join(c) for c in itertools.product(printable, repeat = i)]
+    for word in words:
+	if hashlib.sha256(word).hexdigest() == myhash:
+	    print word
+	    break
+    
 ```
 
-**Now complete the rest of the CHALLENGE.**
+>**How big is the brute force search space if I know the original string is X characters long?**
+
+Anything past around 2<sup>22</sup> would take too long to brute force.
+
+>**Now complete the rest of Intro to Hash using brute force.**
+
 
 ## Challenge: Hash Attack
+Here's a new challenge to try out: *Hash Attack*.
+
+>**Connect to the challenge by running _nc 3.220.181.160 6002_ in your terminal.**
+
+![hash_attack](images/hash_attack.png)
+
+It looks like we're being asked to give the original string for some hash, and the hash is 128 characters long (or 64 bytes, or 512 bits), indicating that this is most likely a SHA-512 hash. Other hash functions output different hash lengths. We're also given a file **dictionary.txt**. Download it.
+
+>**This looks like another challenge we're going to have to script, so let's open that dictionary.txt file in python.**
+
+```python
+f = open('dictionary.txt', 'r')
+words = [word.strip() for word in f]
+f.close()
+```
+
+My guess is that they're giving us hashes of words in that dictionary. Why else would they give us that file?
+
+>**Verify that the hash you were given is a hash of a word in the dictionary.**
+
+Now, for every hash the challenge asks you the word for, you could loop through every word in the dictionary, hash it, and compare to the hash you were given, and repeat...
+
+Or you could use a **dictonary attack**. You could create a Python dictionary that maps hashes of words to the orignal words. When you're given a hash, you can look it up in the dictionary and respond with the corresponding word.
+
+>**Use a dictionary to solve Hash Attack**
+
+```python
+mydict = {}
+for word in words:
+    mydict[hashlib.sha512(word).hexdigest()] = word
+
+# pseudocode
+while True:
+    myhash = recv()
+    myguess = mydict[myhash]
+    send(myguess)
+```
 
 
-### What Are Hashes Used For?
+## What Are Hashes Used For?
 * Digital signatures
 * Checksums
 * Message Authentication Codes (MACs)
 * Password storage
 
 
-### Common Hash Functions
+## Common Hash Functions
 * MD5 & SHA-1 - **WEAK**
   * Vulnerable to collisions
   * Vulnerable to length extension attacks
@@ -88,13 +149,15 @@ EXAMPLE
 * SHA-3
 
 
-### Vulnerabilities
-#### Collisions
+## Vulnerabilities
+### Collisions
 Collisions happen when two different pieces of data hash to the same value.
 
-Why is this bad?
+>**Why is this bad?**
 
-#### Length Extension Attacks
+#### Challenge: 
+
+### Length Extension Attacks
 Before we get into this attack, you should understand the concept of a Message Authenication Code, or a MAC. MACs are sort of like hashes with keys. There is a secret key that both the sender and recevier know. For some message, the sender generates a MAC using a hash function and the key. The receiver can then verify that the message is unaltered and came from the sender by generating a MAC for the received message using the same hash function and key. If the two MACs are the same, the message is verified.
 
 Now let's look at a MAC scheme that is vulnerable to a legnth extension attack:
@@ -102,10 +165,17 @@ Now let's look at a MAC scheme that is vulnerable to a legnth extension attack:
 
 We can easily forge signatures with this scheme using programs like [HashPump](https://github.com/bwall/HashPump) or [hlextend](https://github.com/stephenbradshaw/hlextend).
 
+#### Challenege: 
 
-### Tabletop
-* I have a governance control which says I can only use SHA1, which has collisions.  How can I get around this weakness?
 
-* They are proposing to go to SHA256. Why is this a bad idea? What if it were md5?
+## Tabletop
+* I have a governance control which says I can only use SHA-1, which has collisions.  How can I get around this weakness?
+
+* They are proposing to go to SHA-256. Why is this a bad idea? What if it were MD5?
+
+
+## More Challenges
+* The Slash Bringing Hasher
+* RockYou
 
 
