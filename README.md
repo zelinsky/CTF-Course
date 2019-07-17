@@ -19,6 +19,13 @@ Evans 134 (iSuite)
 ## CTF Website (Grading)
 Complete challenges in our [UDCTF](https://udctf.com)!
 
+### Writeups
+You can submit writeups for problems you solve for extra points! A writeup should contain any solution scripts you wrote, and it should walk the reader through the problem while explaining your thought process.
+
+[Example Writeup](https://github.com/zelinsky/CTF-Writeups/blob/master/ISITDTU/Reverse/Recovery/README.md)
+
+Reading writeups are also a great way to learn and go about solving challenges.
+
 
 ## Kali Linux
 Kali Linux has a lot of useful tools for solving CTFs challenges.
