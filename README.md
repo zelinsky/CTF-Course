@@ -55,6 +55,7 @@ Kali Linux has a lot of useful tools for solving CTFs challenges.
 ## Notes
 * [Class 1](Classes/1.md): Intro to CTFs
 * [Class 2](Classes/2.md): Talking to Servers, Hash Functions
+* [Class 3](Classes/3.md): XOR, One-Time Pad
 
 
 ### Sponsors
