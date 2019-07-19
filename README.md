@@ -1,18 +1,44 @@
 # CTF-Course
 
-### Details
+## Details
 July 15 - August 16
 
 10:45 AM - 12:15 PM
 
 Evans 134 (iSuite)
 
+**Professor**
+* Andrew Novocin	*andynovo@udel.edu*
 
+**TAs**
+* Landon Jones		*lhjones@udel.edu*
+* Liam Jordan		*lkj@udel.edu*
+* Matthew Zelinsky	*zelinsky@udel.edu*
+
+
+## CTF Website (Grading)
+Complete challenges in our [UDCTF](https://udctf.com)!
+
+### Writeups
+You can submit writeups for problems you solve for extra points! A writeup should contain any solution scripts you wrote, and it should walk the reader through the problem while explaining your thought process.
+
+[Example Writeup](https://github.com/zelinsky/CTF-Writeups/blob/master/ISITDTU/Reverse/Recovery/README.md)
+
+Reading writeups are also a great way to learn and go about solving challenges.
+
+
+## Kali Linux
+Kali Linux has a lot of useful tools for solving CTFs challenges.
+
+[Click here](kali.md) for instructions on setting up Kali with VMware.
+
+
+## Topics
 ### General Skills
 * [Linux and Bash](Linux/)
 * [Python](Python/)
 
-### CTF Topics
+### Common CTF Categories
 * [Cryptography](Cryptography/)
 * [Forensics](Forensics/)
 * [Web](Web/)
@@ -20,27 +46,26 @@ Evans 134 (iSuite)
 * [Binary Exploitation](Binary-Exploitation/)
 
 
-### To Do:
-* Create list of CTF topics:
-  * Outline each topic
-  * List of tools for each topic
-  * Find or create sample problems for each topic
+## Resources
 
-* Create web scraper for CTFs to generate histogram
+### Useful Sites
+* [CTFTime](https://ctftime.org/)
 
-* Create class outline
-  * Objectives
-  * Timeline
-  
-* Set up VM with tools
+### Practice Sites
+* [GoogleCTF](https://capturetheflag.withgoogle.com/#beginners/)
+* [picoCTF](https://2018game.picoctf.com/)
+* [CSAW 365](https://365.csaw.io/)
+* [OverTheWire](http://overthewire.org/)
+* [W3Challs](https://w3challs.com/)
 
-* Steal Andy's Website
 
-### Ideas for Course:
-* Overview of what a CTF is
-* Overview of participating in CTF
-* Overview of different CTF topics
-* Demos
-* In-class problems
-* Take-home problems
-* Participate in CTFs
+## Notes
+* [Class 1](Classes/1.md): Intro to CTFs
+* [Class 2](Classes/2.md): Talking to Servers, Hash Functions
+* [Class 3](Classes/3.md): Binary, XOR, One-Time Pad
+* [Class 4](Classes/4.md): Block Ciphers
+* [Class 5](Classes/5.md): RSA
+
+
+### Sponsors
+* J.P. Morgan Chase
