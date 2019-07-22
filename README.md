@@ -19,6 +19,9 @@ Evans 134 (iSuite)
 ## CTF Website (Grading)
 Complete challenges in our [UDCTF](https://udctf.com)!
 
+### Weekly Growth Report
+Every week, you should submit a personal growth report following this format: [Report Format](report.md)
+
 ### Writeups
 You can submit writeups for problems you solve for extra points! A writeup should contain any solution scripts you wrote, and it should walk the reader through the problem while explaining your thought process.
 
