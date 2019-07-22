@@ -11,5 +11,5 @@ Answer these questions in either a slack message (to andynovo on udcoe) or email
 8. Have you done any additional practice (practice CTF sites, video tutorials, project euler, etc.)?
 
 **Bonus**
-9. For any problems you are particularly proud of, write a full markdown writeup and send us the link!
+* For any problems you are particularly proud of, write a full markdown writeup and send us the link!
 
