@@ -6,3 +6,4 @@
 * [Class 5](5.md): RSA, Attacks
 * [Class 6](6.md): Web Intro, Curl, Python Requests
 * [Class 7](7.md): SQL, SQL Injection, CSRF
+* [Class 8](8.md): C, Assembly
