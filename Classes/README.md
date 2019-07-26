@@ -5,4 +5,4 @@
 * [Class 4](4.md): Block Ciphers and Modes
 * [Class 5](5.md): RSA, Attacks
 * [Class 6](6.md): Web Intro, Curl, Python Requests
-* [Class 7](7.md): SQL, SQL Injection
+* [Class 7](7.md): SQL, SQL Injection, CSRF

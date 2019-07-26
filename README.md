@@ -69,7 +69,7 @@ Kali Linux has a lot of useful tools for solving CTFs challenges.
 * [Class 4](Classes/4.md): Block Ciphers and Modes
 * [Class 5](Classes/5.md): RSA, Attacks
 * [Class 6](Classes/6.md): Web Intro, Curl, Python Requests
-* [Class 7](Classes/7.md): SQL, SQL Injection
+* [Class 7](Classes/7.md): SQL, SQL Injection, CSRF
 
 
 ### Sponsors
