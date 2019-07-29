@@ -7,3 +7,4 @@
 * [Class 6](6.md): Web Intro, Curl, Python Requests
 * [Class 7](7.md): SQL, SQL Injection, CSRF
 * [Class 8](8.md): C, Assembly
+* [Class 9](9.md): Reversing Practice
