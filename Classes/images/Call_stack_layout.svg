@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="558px" width="684px" viewBox="0 0 21590 27940">
+<defs>
+	<linearGradient id="a" gradientUnits="userSpaceOnUse" x2="0" y2="24400" y1="26700">
+		<stop stop-color="#fff" offset="0"/>
+		<stop stop-color="#adf" offset="1"/>
+	</linearGradient>
+</defs>
+<rect height="27940" width="34250" x="-6330" fill="#fff"/>
+<g stroke="#000" stroke-width="61">
+	<g fill="#afc">
+		<path d="m6370 8620v-6430h12300v6430"/>
+		<path d="m6370 10400v-1760h12300v1760"/>
+		<path d="m6370 14500v-4090h12300v4090"/>
+	</g>
+	<path d="m6370 26700v-2340h12300v2340" fill="url(#a)"/>
+	<g fill="#adf">
+		<path d="m6370 19700v-1760h12300v1760"/>
+		<path d="m18670 19700v4720h-12300v-4720z"/>
+		<path d="m6370 17900v-3510h12300v3510"/>
+	</g>
+	<g fill="none">
+		<path d="m5780 24400-120-9.5-111-47-98-75.9-85-107-73-120-50.6-139-37.9-155-12.6-174v-3310l-9.5-168-34.8-161-53.7-133-66-120-88-101-95-82-111-47-123-15.8 123-9.5 111-50.6 95-69 89-111 66-123 53.7-133 34.8-158 9.5-174v-3300l12.6-171 37.9-161 50.6-133 73-120 85-98 98-85 111-47 120-12.6"/>
+		<path d="m19200 2190 120 22 111 63 98 85 85 133 73 145 50.6 183 37.9 180 9.5 209v4090l9.5 205 41 196 47 171 75.9 145 82 133 95 85 111 60 126 25.3-126 25.3-111 60-95 85-82 133-75.9 145-47 180-41 183-9.5 209v4080l-9.5 209-37.9 196-50.6 168-73 149-85 133-98 85-111 63-120 22"/>
+	</g>
+	<path d="m1810 2190h3470"/>
+	<path d="m1850 8640h3470"/>
+</g>
+<path d="m12400 26000h188v202h-188v-202m0-582h188v202h-188v-202m0-585h188v202h-188v-202"/>
+<path d="m5030 2570 752-389-752-376 231 376-231 389"/>
+<path d="m5070 9040 752-389-752-376 231 376-231 389"/>
+<g style="font-family:Arial,sans-serif;text-align:center;text-anchor:middle;font-size:1200px">
+	<g font-size="1380px">
+		<text y="21607" x="12468">Parameters for</text>
+		<text y="23238" x="12501">DrawSquare</text>
+		<text y="15768" x="12455">Locals of</text>
+		<text y="17399" x="12501">DrawSquare</text>
+		<text y="19211" x="12498">Return Address</text>
+		<text y="11972" x="12468">Parameters for</text>
+		<text y="13606" x="12500">DrawLine</text>
+		<text y="4974" x="12455">Locals of</text>
+		<text y="6602" x="12500">DrawLine</text>
+		<text y="9870" x="12498">Return Address</text>
+	</g>
+	<text y="6464" x="27050">
+		<tspan y="6464" x="23984">stack frame</tspan>
+		<tspan y="7961" x="23984">for</tspan>
+		<tspan y="9458" x="23984">DrawLine</tspan>
+		<tspan y="10955" x="23984">subroutine</tspan>
+	</text>
+	<text y="17447" x="3865">
+		<tspan x="563">stack frame</tspan>
+		<tspan y="18944" x="563">for</tspan>
+		<tspan y="20440" x="563">DrawSquare</tspan>
+		<tspan y="21937" x="563">subroutine</tspan>
+	</text>
+	<text y="8919" x="-2242">Frame Pointer</text>
+	<text y="2468" x="-2081">Stack Pointer</text>
+	<text y="1860" x="12453">top of stack</text>
+</g>
+</svg>
