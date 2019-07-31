@@ -1,0 +1,15 @@
+--2019-07-29 10:21:22--  https://www.google.com/imgres?imgurl=http%3A%2F%2Fflint.cs.yale.edu%2Fcs421%2Fpapers%2Fx86-asm%2Fx86-registers.png
+Resolving www.google.com (www.google.com)... 172.217.12.164, 2607:f8b0:4006:815::2004
+Connecting to www.google.com (www.google.com)|172.217.12.164|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://www.google.com/imghp [following]
+--2019-07-29 10:21:22--  https://www.google.com/imghp
+Reusing existing connection to www.google.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘imgres?imgurl=http:%2F%2Fflint.cs.yale.edu%2Fcs421%2Fpapers%2Fx86-asm%2Fx86-registers.png’
+
+                 imgres?imgurl=htt     [<=>                                                              ]       0  --.-KB/s               imgres?imgurl=http:%2F%2Fflint.cs.     [ <=>                                                             ]  11.12K  --.-KB/s    in 0s      
+
+2019-07-29 10:21:23 (85.2 MB/s) - ‘imgres?imgurl=http:%2F%2Fflint.cs.yale.edu%2Fcs421%2Fpapers%2Fx86-asm%2Fx86-registers.png’ saved [11391]
+
