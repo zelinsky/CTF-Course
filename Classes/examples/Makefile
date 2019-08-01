@@ -1,8 +1,8 @@
-all: asm 
+all: asm
 
-asm: template.o 
-	ld -m elf_i386 -s -o asm template.o 
+asm: x86_template.o 
+	ld -m elf_i386 -s -o asm x86_template.o 
 
-template.o: x86_template.asm 
+x86_template.o: x86_template.asm 
 	nasm -f elf x86_template.asm 
 
