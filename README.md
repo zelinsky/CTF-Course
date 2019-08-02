@@ -73,6 +73,8 @@ Kali Linux has a lot of useful tools for solving CTFs challenges.
 * [Class 8](Classes/8.md): C, Assembly
 * [Class 9](Classes/9.md): Reversing Practice
 * [Class 10](Classes/10.md): Buffer Overflows and Memory Alteration
+* [Class 11](Classes/11.md): Shellcode
+* [Class 12](Classes/12.md): Return Oriented Programming
 
 ### Sponsors
 * J.P. Morgan Chase
