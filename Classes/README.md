@@ -9,3 +9,6 @@
 * [Class 8](8.md): C, Assembly
 * [Class 9](9.md): Reversing Practice
 * [Class 10](10.md): Buffer Overflows
+* [Class 11](11.md): Shellcode
+* [Class 12](12.md): Return Oriented Programming
+* [Class 13](13.md): Forensics, Steganography

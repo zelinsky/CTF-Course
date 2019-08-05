@@ -75,6 +75,7 @@ Kali Linux has a lot of useful tools for solving CTFs challenges.
 * [Class 10](Classes/10.md): Buffer Overflows and Memory Alteration
 * [Class 11](Classes/11.md): Shellcode
 * [Class 12](Classes/12.md): Return Oriented Programming
+* [Class 13](Classes/13.md): Forensics, Steganography
 
 ### Sponsors
 * J.P. Morgan Chase
