@@ -4,7 +4,7 @@ im = Image.open('hen.png')
 values = list(im.getdata())
 flag = "hello"
 binary = bin(bytes_to_long(flag))[2:]
-binary = (len(binary) % 8)*'0' + binary
+binary = (8-(len(binary) % 8))*'0' + binary
                 
 values = [v for t in values for v in t]
 def encode(values, binary):
