@@ -1,7 +1,7 @@
 # CTF-Course
 
 ## Details
-July 15 - August 16
+July 15 - August 15
 
 10:45 AM - 12:15 PM
 
