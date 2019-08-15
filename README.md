@@ -79,6 +79,7 @@ Kali Linux has a lot of useful tools for solving CTFs challenges.
 * [Class 14](Classes/14.md): Computer Networking, Network Analysis
 * [Class 15](Classes/15.md): Memory Dump Analysis
 * [Class 16](Classes/16.md): Diffie-Hellman, Chinese Remainder Theorem
+* [Class 17](Classes/17.md): Last Class Wrap-Up
 
 ### Sponsors
 * J.P. Morgan Chase
